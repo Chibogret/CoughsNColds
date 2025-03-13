@@ -1,0 +1,236 @@
+{
+    "questions": [
+      {
+        "question": "1) Which of the following is a common OTC decongestant medication?",
+        "answers": [
+          "Amoxicillin",
+          "Pseudoephedrine",
+          "Loratadine",
+          "Guaifenesin"
+        ],
+        "correctIndex": 1,
+        "correctExplanation": "Pseudoephedrine is a common OTC decongestant that helps relieve nasal congestion.",
+        "wrongExplanation": [
+          "Amoxicillin is an antibiotic, not a decongestant.",
+          "Loratadine is an antihistamine.",
+          "Guaifenesin is an expectorant."
+        ]
+      },
+      {
+        "question": "2) What is the primary purpose of an expectorant in cold and cough medications?",
+        "answers": [
+          "To suppress coughing",
+          "To relieve pain",
+          "To thin mucus and make it easier to cough up",
+          "To reduce fever"
+        ],
+        "correctIndex": 2,
+        "correctExplanation": "Expectorants like guaifenesin work to thin mucus, making coughs more productive.",
+        "wrongExplanation": [
+          "Cough suppressants reduce coughing.",
+          "Pain relievers like acetaminophen relieve pain.",
+          "Antipyretics reduce fever."
+        ]
+      },
+      {
+        "question": "3) Which of these side effects is most commonly associated with first-generation antihistamines like diphenhydramine (Benadryl)?",
+        "answers": [
+          "Increased alertness",
+          "Drowsiness",
+          "Nasal congestion",
+          "Increased heart rate"
+        ],
+        "correctIndex": 1,
+        "correctExplanation": "Drowsiness is a well-known side effect of first-generation antihistamines.",
+        "wrongExplanation": [
+          "First-generation antihistamines typically cause drowsiness, not alertness.",
+          "Antihistamines can sometimes cause dryness, but not nasal congestion.",
+          "Increased heart rate is less common with antihistamines compared to decongestants."
+        ]
+      },
+      {
+        "question": "4) For how many days should you typically use an OTC nasal decongestant spray to avoid rebound congestion?",
+        "answers": [
+          "Up to 10 days",
+          "No limit as long as needed",
+          "3 to 5 days",
+          "Up to 2 weeks"
+        ],
+        "correctIndex": 2,
+        "correctExplanation": "Using nasal decongestant sprays for more than 3-5 days can lead to rebound congestion.",
+        "wrongExplanation": [
+          "Using for 10 days or more increases rebound congestion risk.",
+          "There is a limit to avoid rebound congestion.",
+          "2 weeks is too long and increases risk."
+        ]
+      },
+      {
+        "question": "5) Which pain reliever is generally recommended for reducing fever and pain in children with colds or flu?",
+        "answers": [
+          "Aspirin",
+          "Ibuprofen or Acetaminophen",
+          "Naproxen",
+          "Ketoprofen"
+        ],
+        "correctIndex": 1,
+        "correctExplanation": "Ibuprofen and acetaminophen are commonly recommended for children. Aspirin is generally avoided due to the risk of Reye's syndrome.",
+        "wrongExplanation": [
+          "Aspirin is not recommended for children due to Reye's syndrome risk.",
+          "Naproxen and ketoprofen are less commonly used OTC for children compared to ibuprofen and acetaminophen."
+        ]
+      },
+      {
+        "question": "6) What is the role of a cough suppressant (antitussive) like dextromethorphan?",
+        "answers": [
+          "To loosen mucus",
+          "To stop or reduce coughing",
+          "To relieve nasal swelling",
+          "To reduce fever"
+        ],
+        "correctIndex": 1,
+        "correctExplanation": "Cough suppressants like dextromethorphan are used to reduce the urge to cough.",
+        "wrongExplanation": [
+          "Expectorants loosen mucus.",
+          "Decongestants relieve nasal swelling.",
+          "Antipyretics reduce fever."
+        ]
+      },
+      {
+        "question": "7) Which of the following is NOT a common ingredient in OTC combination cold medications?",
+        "answers": [
+          "Decongestant",
+          "Antihistamine",
+          "Antibiotic",
+          "Pain Reliever"
+        ],
+        "correctIndex": 2,
+        "correctExplanation": "Antibiotics are not effective against colds (which are viral) and are not included in OTC cold medications.",
+        "wrongExplanation": [
+          "Decongestants, antihistamines, and pain relievers are all common components of OTC combination cold products."
+        ]
+      },
+      {
+        "question": "8) What should you do if you are unsure about which OTC cough and cold medication is right for you?",
+        "answers": [
+          "Ask a pharmacist or doctor",
+          "Try a combination medication first",
+          "Take the highest recommended dose to ensure effectiveness",
+          "Rely on online forums for advice"
+        ],
+        "correctIndex": 0,
+        "correctExplanation": "Consulting a healthcare professional is the safest and most reliable way to get advice.",
+        "wrongExplanation": [
+          "Combination medications may not be necessary or appropriate.",
+          "Higher doses are dangerous and not recommended.",
+          "Online forums are not reliable sources for medical advice."
+        ]
+      },
+      {
+        "question": "9) Which of these is a potential side effect of oral decongestants like pseudoephedrine?",
+        "answers": [
+          "Drowsiness",
+          "Lowered blood pressure",
+          "Insomnia and restlessness",
+          "Decreased heart rate"
+        ],
+        "correctIndex": 2,
+        "correctExplanation": "Oral decongestants can stimulate the nervous system, leading to insomnia and restlessness.",
+        "wrongExplanation": [
+          "Drowsiness is more common with antihistamines.",
+          "Decongestants can raise blood pressure.",
+          "Decongestants can increase heart rate."
+        ]
+      },
+      {
+        "question": "10) What is the best way to dispose of unused or expired OTC cough and cold medications?",
+        "answers": [
+          "Flush them down the toilet",
+          "Throw them in the trash as is",
+          "Use a medication take-back program if available",
+          "Leave them at a donation center"
+        ],
+        "correctIndex": 2,
+        "correctExplanation": "Medication take-back programs are the safest way to dispose of medications.",
+        "wrongExplanation": [
+          "Flushing is not environmentally friendly and not recommended for most medications.",
+          "Throwing in trash can be unsafe; take-back is preferred.",
+          "Donation centers are not typically equipped to handle or redistribute medications."
+        ]
+      },
+      {
+        "question": "11) Which of the following is a symptom that would warrant seeking medical advice rather than just using OTC cold medication?",
+        "answers": [
+          "Mild sore throat",
+          "Occasional cough",
+          "Difficulty breathing or chest pain",
+          "Runny nose"
+        ],
+        "correctIndex": 2,
+        "correctExplanation": "Difficulty breathing or chest pain are serious symptoms that require immediate medical attention.",
+        "wrongExplanation": [
+          "Mild sore throat, occasional cough, and runny nose are common cold symptoms that OTCs can help manage."
+        ]
+      },
+      {
+        "question": "12) What is the main benefit of using saline nasal sprays for a cold?",
+        "answers": [
+          "They contain decongestants",
+          "They kill viruses",
+          "They moisturize nasal passages and help clear mucus",
+          "They are cough suppressants"
+        ],
+        "correctIndex": 2,
+        "correctExplanation": "Saline nasal sprays help to moisturize and clear nasal passages naturally.",
+        "wrongExplanation": [
+          "Saline sprays are not decongestants.",
+          "They do not kill viruses.",
+          "They are not cough suppressants."
+        ]
+      },
+      {
+        "question": "13) Which vitamin is often discussed for its potential role in supporting the immune system during a cold, although evidence is mixed?",
+        "answers": [
+          "Vitamin D",
+          "Vitamin B12",
+          "Vitamin C",
+          "Vitamin E"
+        ],
+        "correctIndex": 2,
+        "correctExplanation": "Vitamin C is often discussed for immune support, although scientific evidence on its effectiveness for colds is mixed.",
+        "wrongExplanation": [
+          "Vitamins D, B12, and E are less commonly associated with cold treatment compared to Vitamin C."
+        ]
+      },
+      {
+        "question": "14) What should you consider when choosing between different formulations of the same OTC medication (e.g., liquid vs. tablets)?",
+        "answers": [
+          "Only the price",
+          "Personal preference and ease of use",
+          "Always choose the strongest formulation",
+          "The color of the packaging"
+        ],
+        "correctIndex": 1,
+        "correctExplanation": "Personal preference, such as ease of swallowing liquids vs. tablets, is a key factor.",
+        "wrongExplanation": [
+          "Price is a factor but not the only one.",
+          "Strongest formulation is not always better or necessary.",
+          "Packaging color is irrelevant to effectiveness."
+        ]
+      },
+      {
+        "question": "15) If your cold symptoms worsen after a week of using OTC medications, what is the recommended course of action?",
+        "answers": [
+          "Continue using the same medications for another week",
+          "Increase the dosage of medications",
+          "Consult a doctor",
+          "Switch to herbal remedies"
+        ],
+        "correctIndex": 2,
+        "correctExplanation": "Worsening symptoms suggest you should seek professional medical advice.",
+        "wrongExplanation": [
+          "Continuing or increasing dosage without advice is not recommended.",
+          "Herbal remedies are not a substitute for medical evaluation when symptoms worsen."
+        ]
+      }
+    ]
+  }
