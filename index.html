@@ -683,31 +683,54 @@
   <div class="container">
     <!-- Introduction Section -->
     <section id="introduction-section" class="introduction" style="position: relative;">
-        <!-- Banner Image -->
-        <img src="banner.png" alt="OTC Medications Banner" style="display: block; width: 100%; height: 400px; object-fit: cover; border-radius: 10px; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);">
-
-        <!-- Overlay Text Container -->
-        <div style="
-            position: absolute;
-            top: 50%;
-            left: 5%;
-            transform: translateY(-50%);
-            background: #546e7a;
-            color: white;
-            padding: 20px;
-            width: 70%;
-            max-width: 550px;
-            border-radius: 10px;
-            text-align: left;
-        ">
-            <h2 style="margin: 0; font-size: 1.8rem; color: white">Introduction</h2>
-            <p style="margin-top: 10px; font-size: 1rem; line-height: 1.5;">
-                This e-leaflet provides clear and concise information about over-the-counter cough and cold medications.
-                It covers common medications, safe usage, side effects, drug interactions, and proper storage and disposal.
-                Tailored for adults and seniors, this guide helps you make informed decisions for managing cold symptoms.
-            </p>
-        </div>
-    </section>
+      <!-- Banner Image -->
+      <img id="banner-image" src="banner.png" alt="OTC Medications Banner" class="banner">
+  
+      <!-- Overlay Text Container -->
+      <div class="overlay-text">
+          <h2>Introduction</h2>
+          <p>
+              This e-leaflet provides clear and concise information about over-the-counter cough and cold medications.
+              It covers common medications, safe usage, side effects, drug interactions, and proper storage and disposal.
+              Tailored for adults and seniors, this guide helps you make informed decisions for managing cold symptoms.
+          </p>
+      </div>
+  </section>
+  
+  <style>
+      /* Default Banner Styling */
+      .banner {
+          display: block;
+          width: 100%;
+          height: 400px;
+          object-fit: cover;
+          border-radius: 10px;
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+          transition: opacity 0.3s ease-in-out;
+      }
+  
+      /* Overlay Text Styling */
+      .overlay-text {
+          position: absolute;
+          top: 50%;
+          left: 5%;
+          transform: translateY(-50%);
+          background: #546e7a;
+          color: white;
+          padding: 20px;
+          width: 70%;
+          max-width: 550px;
+          border-radius: 10px;
+          text-align: left;
+      }
+  
+      /* Mobile Optimization */
+      @media (max-width: 768px) {
+          .banner {
+              opacity: 0.3; /* Makes the banner more transparent on smaller screens */
+          }
+      }
+  </style>
 
 
     <!-- Medication Information Section -->
