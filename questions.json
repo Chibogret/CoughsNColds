@@ -9,9 +9,9 @@
           "Guaifenesin"
         ],
         "correctIndex": 1,
-        "correctExplanation": "Pseudoephedrine is a common OTC decongestant that helps relieve nasal congestion.",
-        "wrongExplanation": [
+        "explanations": [
           "Amoxicillin is an antibiotic, not a decongestant.",
+          "Pseudoephedrine is a common OTC decongestant that helps relieve nasal congestion.",
           "Loratadine is an antihistamine.",
           "Guaifenesin is an expectorant."
         ]
@@ -25,10 +25,10 @@
           "To reduce fever"
         ],
         "correctIndex": 2,
-        "correctExplanation": "Expectorants like guaifenesin work to thin mucus, making coughs more productive.",
-        "wrongExplanation": [
+        "explanations": [
           "Cough suppressants reduce coughing.",
           "Pain relievers like acetaminophen relieve pain.",
+          "Expectorants like guaifenesin work to thin mucus, making coughs more productive.",
           "Antipyretics reduce fever."
         ]
       },
@@ -41,9 +41,9 @@
           "Increased heart rate"
         ],
         "correctIndex": 1,
-        "correctExplanation": "Drowsiness is a well-known side effect of first-generation antihistamines.",
-        "wrongExplanation": [
+        "explanations": [
           "First-generation antihistamines typically cause drowsiness, not alertness.",
+          "Drowsiness is a well-known side effect of first-generation antihistamines.",
           "Antihistamines can sometimes cause dryness, but not nasal congestion.",
           "Increased heart rate is less common with antihistamines compared to decongestants."
         ]
@@ -57,10 +57,10 @@
           "Up to 2 weeks"
         ],
         "correctIndex": 2,
-        "correctExplanation": "Using nasal decongestant sprays for more than 3-5 days can lead to rebound congestion.",
-        "wrongExplanation": [
+        "explanations": [
           "Using for 10 days or more increases rebound congestion risk.",
           "There is a limit to avoid rebound congestion.",
+          "Using nasal decongestant sprays for more than 3-5 days can lead to rebound congestion.",
           "2 weeks is too long and increases risk."
         ]
       },
@@ -73,9 +73,10 @@
           "Ketoprofen"
         ],
         "correctIndex": 1,
-        "correctExplanation": "Ibuprofen and acetaminophen are commonly recommended for children. Aspirin is generally avoided due to the risk of Reye's syndrome.",
-        "wrongExplanation": [
+        "explanations": [
           "Aspirin is not recommended for children due to Reye's syndrome risk.",
+          "Ibuprofen and acetaminophen are commonly recommended for children. Aspirin is generally avoided due to the risk of Reye's syndrome.",
+          "Naproxen and ketoprofen are less commonly used OTC for children compared to ibuprofen and acetaminophen.",
           "Naproxen and ketoprofen are less commonly used OTC for children compared to ibuprofen and acetaminophen."
         ]
       },
@@ -88,9 +89,9 @@
           "To reduce fever"
         ],
         "correctIndex": 1,
-        "correctExplanation": "Cough suppressants like dextromethorphan are used to reduce the urge to cough.",
-        "wrongExplanation": [
+        "explanations": [
           "Expectorants loosen mucus.",
+          "Cough suppressants like dextromethorphan are used to reduce the urge to cough.",
           "Decongestants relieve nasal swelling.",
           "Antipyretics reduce fever."
         ]
@@ -104,8 +105,10 @@
           "Pain Reliever"
         ],
         "correctIndex": 2,
-        "correctExplanation": "Antibiotics are not effective against colds (which are viral) and are not included in OTC cold medications.",
-        "wrongExplanation": [
+        "explanations": [
+          "Decongestants, antihistamines, and pain relievers are all common components of OTC combination cold products.",
+          "Decongestants, antihistamines, and pain relievers are all common components of OTC combination cold products.",
+          "Antibiotics are not effective against colds (which are viral) and are not included in OTC cold medications.",
           "Decongestants, antihistamines, and pain relievers are all common components of OTC combination cold products."
         ]
       },
@@ -118,8 +121,8 @@
           "Rely on online forums for advice"
         ],
         "correctIndex": 0,
-        "correctExplanation": "Consulting a healthcare professional is the safest and most reliable way to get advice.",
-        "wrongExplanation": [
+        "explanations": [
+          "Consulting a healthcare professional is the safest and most reliable way to get advice.",
           "Combination medications may not be necessary or appropriate.",
           "Higher doses are dangerous and not recommended.",
           "Online forums are not reliable sources for medical advice."
@@ -134,10 +137,10 @@
           "Decreased heart rate"
         ],
         "correctIndex": 2,
-        "correctExplanation": "Oral decongestants can stimulate the nervous system, leading to insomnia and restlessness.",
-        "wrongExplanation": [
+        "explanations": [
           "Drowsiness is more common with antihistamines.",
           "Decongestants can raise blood pressure.",
+          "Oral decongestants can stimulate the nervous system, leading to insomnia and restlessness.",
           "Decongestants can increase heart rate."
         ]
       },
@@ -150,10 +153,10 @@
           "Leave them at a donation center"
         ],
         "correctIndex": 2,
-        "correctExplanation": "Medication take-back programs are the safest way to dispose of medications.",
-        "wrongExplanation": [
+        "explanations": [
           "Flushing is not environmentally friendly and not recommended for most medications.",
           "Throwing in trash can be unsafe; take-back is preferred.",
+          "Medication take-back programs are the safest way to dispose of medications.",
           "Donation centers are not typically equipped to handle or redistribute medications."
         ]
       },
@@ -166,8 +169,10 @@
           "Runny nose"
         ],
         "correctIndex": 2,
-        "correctExplanation": "Difficulty breathing or chest pain are serious symptoms that require immediate medical attention.",
-        "wrongExplanation": [
+        "explanations": [
+          "Mild sore throat, occasional cough, and runny nose are common cold symptoms that OTCs can help manage.",
+          "Mild sore throat, occasional cough, and runny nose are common cold symptoms that OTCs can help manage.",
+          "Difficulty breathing or chest pain are serious symptoms that require immediate medical attention.",
           "Mild sore throat, occasional cough, and runny nose are common cold symptoms that OTCs can help manage."
         ]
       },
@@ -180,10 +185,10 @@
           "They are cough suppressants"
         ],
         "correctIndex": 2,
-        "correctExplanation": "Saline nasal sprays help to moisturize and clear nasal passages naturally.",
-        "wrongExplanation": [
+        "explanations": [
           "Saline sprays are not decongestants.",
           "They do not kill viruses.",
+          "Saline nasal sprays help to moisturize and clear nasal passages naturally.",
           "They are not cough suppressants."
         ]
       },
@@ -196,8 +201,10 @@
           "Vitamin E"
         ],
         "correctIndex": 2,
-        "correctExplanation": "Vitamin C is often discussed for immune support, although scientific evidence on its effectiveness for colds is mixed.",
-        "wrongExplanation": [
+        "explanations": [
+          "Vitamins D, B12, and E are less commonly associated with cold treatment compared to Vitamin C.",
+          "Vitamins D, B12, and E are less commonly associated with cold treatment compared to Vitamin C.",
+          "Vitamin C is often discussed for immune support, although scientific evidence on its effectiveness for colds is mixed.",
           "Vitamins D, B12, and E are less commonly associated with cold treatment compared to Vitamin C."
         ]
       },
@@ -210,9 +217,9 @@
           "The color of the packaging"
         ],
         "correctIndex": 1,
-        "correctExplanation": "Personal preference, such as ease of swallowing liquids vs. tablets, is a key factor.",
-        "wrongExplanation": [
+        "explanations": [
           "Price is a factor but not the only one.",
+          "Personal preference, such as ease of swallowing liquids vs. tablets, is a key factor.",
           "Strongest formulation is not always better or necessary.",
           "Packaging color is irrelevant to effectiveness."
         ]
@@ -226,9 +233,10 @@
           "Switch to herbal remedies"
         ],
         "correctIndex": 2,
-        "correctExplanation": "Worsening symptoms suggest you should seek professional medical advice.",
-        "wrongExplanation": [
+        "explanations": [
           "Continuing or increasing dosage without advice is not recommended.",
+          "Increasing the dosage of medications",
+          "Worsening symptoms suggest you should seek professional medical advice.",
           "Herbal remedies are not a substitute for medical evaluation when symptoms worsen."
         ]
       }

@@ -785,23 +785,23 @@
 
     let questions = []; // Initialize questions as an empty array
 
-    fetch('questions.json')
+    fetch('questions.json') // Assuming your JSON file is named 'questions.json' and in the same directory
     .then(response => {
-        console.log("Fetch response:", response); // Log the response object
-        if (!response.ok) { // Check if the response status is OK (200)
+        console.log("Fetch response:", response);
+        if (!response.ok) {
             console.error("Fetch response was not OK:", response.status, response.statusText);
-            throw new Error(`HTTP error! status: ${response.status}`); // Throw error to go to .catch()
+            throw new Error(`HTTP error! status: ${response.status}`);
         }
         return response.json();
     })
     .then(data => {
-        console.log("Data from JSON:", data); // Log the parsed JSON data
+        console.log("Data from JSON:", data);
         questions = data.questions;
-        startQuiz(); // Only start quiz if JSON loaded successfully
+        startQuiz(); // Start quiz after JSON is successfully loaded
     })
     .catch(error => {
-        console.error("Fetch error during JSON loading:", error); // More specific error log
-        console.log("Is showCustomAlert defined?", typeof showCustomAlert); // Check if showCustomAlert is defined in this scope
+        console.error("Fetch error during JSON loading:", error);
+        console.log("Is showCustomAlert defined?", typeof showCustomAlert);
         showCustomAlert('Failed to load quiz questions. Please try again later.');
     });
 
@@ -828,7 +828,7 @@
         overlay.style.display = 'none';
       });
 
-      // Load current question - (JavaScript from your original code remains the same with slight modification to use fetched questions)
+      // Load current question - Modified to use JSON data
       function loadQuestion() {
         if (!questions || questions.length === 0) {
           showCustomAlert('No questions loaded. Please check questions.json.');
@@ -840,7 +840,7 @@
         q.answers.forEach((answer, index) => {
           html += `<label>
                     <input type="radio" name="answer" value="${index}"> ${answer}
-                    <div class="explanation" id="explanation-${currentQuestion}-${index}" style="display:none;"></div>
+                    <div class="explanation" id="explanation-${currentQuestion}-${index}" style="display:none;">${q.explanations[index]}</div>
                    </label>`;
         });
         html += `</div>`;
@@ -868,7 +868,7 @@
         progressDiv.style.width = progress + '%';
       }
 
-      // Check answers function - (JavaScript from your original code remains the same)
+      // Check answers function - Modified to use JSON data
       function checkAnswers() {
         const selected = document.querySelector('input[name="answer"]:checked');
         if (!selected) {
@@ -882,11 +882,9 @@
           explanationDiv.style.display = 'block';
           explanationDiv.classList.add('show');
           if (index === q.correctIndex) {
-            explanationDiv.textContent = q.correctExplanation;
             explanationDiv.classList.add('correct');
             label.classList.add('correct');
           } else {
-            explanationDiv.textContent = q.wrongExplanation[index] || "Incorrect answer.";
             explanationDiv.classList.add('incorrect');
             label.classList.add('incorrect');
           }
